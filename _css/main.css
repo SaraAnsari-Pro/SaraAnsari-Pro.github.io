@@ -1,8 +1,7 @@
 /*@import url('https://fonts.googleapis.com/css?family=Allura|Amarante|Amita|Architects+Daughter|Arizonia|sans-serif|Barriecito|Barrio|Poppins:400,500,600,700&display=swap');*/
 
 
-
-/*......*/
+/*  ......  */
 .logo{
     position: fixed;
 }
@@ -326,10 +325,7 @@ width: 100%;
     display: block;
     text-align: left;
   }
-        .ham-burger .fa
-        {
-            display: inline-block;
-        }
+ 
             .navbar
         { 
             position: absolute;
