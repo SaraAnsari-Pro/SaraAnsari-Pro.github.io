@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body
+{  
+    background-image: url("../_img/755726.jpeg");
+    background: rgba(0, 0, 0, );
+        background-size:cover;
+    background-position: center;
+    padding: 0px;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+
+
+.logo{
+    position: fixed;
+}
+
+ h1
+{
+    padding:75px 10px 20px;
+    color: #febd01;
+    font-size: 50px;
+    word-break: break-all;
+}
+
+/* .......*/
+h3
+{
+    text-align: center;
+    
+}
+p
+{
+    font-size: 14px;
+    text-align: justify;
+  text-justify: inter-word;
+}
+
+/*
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+*/
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+.rows {
+  margin: 0px 16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.rows,
+.rows > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.rows:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.contents {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
