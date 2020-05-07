@@ -127,7 +127,7 @@ header .brand-name a::before
 .home
 {
     min-height: 100vh;
-    background-image: url("../_img/755726.jpeg");
+    background-image: url("../img/755726.jpeg");
         background-size:cover;
     background-position: center;
     padding: 15px;
