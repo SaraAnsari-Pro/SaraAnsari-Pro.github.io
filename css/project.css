@@ -22,14 +22,31 @@ body
 }
 
 
+.btn {
+margin-top: 55px;
+  border: none;
+  background-color: inherit;
+  padding: 0;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+    border: none;
+}
+
+/* On mouse-over */
+/*.btn:hover {background: #eee;}*/
+
+/*.success {color: green;}*/
 
 
- h1
+
+ btn h1
 {
-    padding:75px 10px 20px;
+    padding:7px 10px 20px;
     color: #febd01;
     font-size: 50px;
     word-break: break-all;
+    margin-top: 50px;
 }
 
 /* .......*/
