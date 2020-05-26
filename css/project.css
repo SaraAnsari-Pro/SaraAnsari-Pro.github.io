@@ -20,7 +20,10 @@ body
 .logo{
     position: fixed;
 }
-
+h1{
+    color: #febd01;
+    -webkit-animation:colorchange 20s infinite alternate; 
+}
 
 .btn {
 margin-top: 55px;
@@ -31,10 +34,15 @@ margin-top: 55px;
   cursor: pointer;
   display: inline-block;
     border: none;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 /* On mouse-over */
-/*.btn:hover {background: #eee;}*/
+.btn:hover 
+{border-color:#febd01;
+background-color: #eee;
+}
 
 /*.success {color: green;}*/
 
@@ -43,7 +51,6 @@ margin-top: 55px;
  btn h1
 {
     padding:7px 10px 20px;
-    color: #febd01;
     font-size: 50px;
     word-break: break-all;
     margin-top: 50px;
