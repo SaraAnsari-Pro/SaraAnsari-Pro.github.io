@@ -1,0 +1,17 @@
+@mixin backImage($image){background :url($image);
+background-repeat: no-repeat;
+background-position: center center;
+background-size:cover;}
+
+
+@mixin importplace {
+    left:0px;
+    right:0px;
+}
+
+@mixin importlocation 
+{
+  display: flex;
+flex-wrap: wrap;  
+}
+ 

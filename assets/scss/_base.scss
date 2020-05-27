@@ -1,0 +1,257 @@
+    
+/*  ......  */
+.logo{
+    position: fixed;
+}
+
+
+
+body {
+  font: 100% $font-stack;
+  background-color: $primary-color;
+}
+
+*
+{
+    box-sizing: border-box;
+    margin:0;   
+}
+
+/*header*/
+
+.container
+{
+    max-width: 1140px;
+    margin:auto;
+}
+.row
+{
+@include importlocation;   
+}
+
+header
+{
+    @include importplace;
+    position: absolute;
+//    left:0px;
+//    right:0px;
+    border-bottom: 0.5px solid #423940;
+    padding: 0px 15px;
+    z-index: 11;
+}
+
+
+header {
+    .row
+{
+    justify-content: space-between;
+    align-items: center;
+}
+}
+/*logo by name*/
+header {
+    .brand-name {
+        a
+{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+        color: $white;
+    text-transform: uppercase;
+    position: relative;
+        }}}
+
+header{ .brand-name
+    { a::before
+{
+    content:'';
+    height: 3px;
+/*    background-color: #ffd700;*/
+    width:100%;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+        }}}
+
+/*navbar*/
+
+.topnav {
+  overflow: hidden;
+}
+
+
+    
+.topnav{ a {
+  float: left;
+  display: block;
+  color: $white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+}
+.topnav{
+    a::before
+{
+    content:'';
+    height: .5px;
+    background-color: $myColor;
+    width:0%;
+    position: absolute;
+    left: 0px;
+    top:100%;
+    bottom: -1px;
+    transition: all .5s ease;
+    
+    margin: 0;
+    }}
+
+.topnav{ a:hover::before
+{
+    width: 100%;
+    left:0;
+     
+    }}
+.topnav {
+    a.active::before
+{
+/*   width: 100%;*/
+    left:0;  
+    }}
+
+
+.topnav{
+    .icon {
+    color: black;
+  display: none;
+    }}
+
+
+
+
+/*Home*/
+.home
+{
+    min-height: 100vh;
+//    background-image: url("../img/755726.jpeg");
+    background-color: $primary-color;
+        background-size:cover;
+    background-position: center;
+    padding: 15px;
+}
+
+.home {
+    .full-screen
+{
+min-height: 100vh;
+    }}
+
+.home {
+    .home-content
+{
+    @include importlocation;
+    flex:0 0 100%;
+    max-width: 100%;
+    align-items: center;
+    }}
+
+.home {
+    .home-content 
+    {
+    .block
+{
+   flex:0 0 85%;
+    max-width: 85%;
+    padding-left: 35px;
+    border-left: 5px solid $white;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+    }
+}
+.home {
+    .home-content {
+        .block :hover{
+            color: $myColor;
+    }}}
+.home {.home-content {.block {h6 
+{
+   color: $white;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+ -webkit-animation:colorchange 20s infinite alternate;  
+      
+    }}}}
+
+    
+.home {.home-content {.block {h1
+{
+    color: $white;
+    font-size: 70px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+ -webkit-animation:colorchange 20s infinite alternate;  
+      
+   }}}}
+
+
+.home {
+    .home-content {
+        .block {
+            h3
+{
+color: $white;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+ -webkit-animation:colorchange 20s infinite alternate;  
+      
+            }}}}
+
+    @-webkit-keyframes colorchange {
+      0% {
+        
+        color: $white;
+      }
+      
+      15% {
+        
+        color: $green;
+      }
+      
+      30% {
+        
+        color: $purple ;
+      }
+      
+      45% {
+        
+        color: $orange;
+      }
+      
+      60% {
+        
+        color: $blue;      
+        }
+      
+      75% {
+        
+        color: $lightgreen;
+      }
+      
+      90% {
+        
+        color: $pink;
+      }
+      
+      100% {
+        
+        color: $myColor;
+    
+    }
+}

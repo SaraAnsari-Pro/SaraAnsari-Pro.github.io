@@ -1,0 +1,21 @@
+{
+  "name": "techchops",
+  "description": "this is first project.",
+  "main": "index.html",
+  "authors": [
+    "Sara Ansari"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bourbon": "^7.0.0",
+    "susy": "^3.0.5"
+  }
+}
