@@ -106,7 +106,7 @@ header .brand-name a::before
 {
     width: 100%;
     left:0;
-    color: 
+    color: red;
 }
 .topnav a.active::before
 {
