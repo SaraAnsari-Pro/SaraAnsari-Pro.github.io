@@ -238,6 +238,22 @@ color: #ffffff;
     }
 }
 
+/*********/
+.animate__bounce {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.animate__animated.animate__bounce {
+  --animate-duration: 2s;
+}
+/*************/
+
+
+
 /*button*/
 .button {
   padding: 15px 25px;
