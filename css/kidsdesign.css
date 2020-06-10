@@ -239,17 +239,28 @@ color: #ffffff;
 }
 
 /*********/
-.animate__bounce {
-  display: inline-block;
-  margin: 0 0.5rem;
+.block h2 {
+/*
+  padding-top: 100px;
+  padding-top: -webkit-calc(50vh - 113px);
+  padding-top: expression(50vh - 113px);
+  padding-top: -moz-calc(50vh - 113px);
+  padding-top: -o-calc(50vh - 113px);
+  padding-top: calc(50vh - 113px);
+*/
+    color: #ffffff;
+  font-size: 5em;
+  
+    font-weight: 600;
 
-  animation: bounce; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s; /* don't forget to set a duration! */
-}
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    
+    }
 
-.animate__animated.animate__bounce {
-  --animate-duration: 2s;
-}
+/*
+
+*/
 /*************/
 
 
@@ -296,6 +307,7 @@ button.button{margin-bottom: 20px;}
 	display: flex;
 }
 
+/*
 h1 {
 	margin: 0;
 	font-size: 32px;
@@ -305,55 +317,35 @@ h1 {
 	color:blue;
     -webkit-animation:colorchange 20s infinite alternate;
 }
-
-.gsap-3-logo {
-	width: 20vw;
-	max-width: 150px;
-	position: fixed;
-	bottom: 15px;
-	right: 15px;
-}
-
-
-
-/*gsap*/
-
-/*
-.footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: transparent;
-   color: white;
-   text-align: center;
-}
 */
+
+
+
+
+
+
 
 /*breakpoints*/
 @media screen and(max-width: 375px)
     {
         
-        .home{ 
-        background-image: url("../img/wood-playing-colorful-colourful-105855.jpg");
-         
-            }
-        .home .home-content .block h1
+
+        .home .home-content .block h2
         {
-         font-size: 30px;
-        }.home .home-content .block h3
-        {
-         font-size: 20px;
-        }.home .home-content .block 
+         font-size: 35px;
+        }
+
+        .home .home-content .block 
         {
          padding-left: 20px;
         }
+        
     }
 
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .topnav a {
     display: none;
       color: #000000;
@@ -362,10 +354,10 @@ h1 {
     float: right;
     display: block;
   }
+
+
+
 }
-
-
-
 
 
 
@@ -391,11 +383,11 @@ width: 100%;
 
 
 
-@media(max-width: 650px)
+@media(max-width: 700px)
     {
-        .home .home-content .block h1
+        .home .home-content .block h2
         {
-         font-size: 40px;
+         font-size: 45px;
         }
         header
         { padding: 15px;
@@ -422,53 +414,13 @@ width: 100%;
     text-align: left;
   }
  
-/*
-            .navbar
-        { 
-            position: absolute;
-            background-color:#ffffff;
-            width:100%;
-            left:0px;
-            top:60px;
-            padding: 15px;
-            border-top:1px solid #eeeeee;
-            display: none;
-            border-bottom:1px solid #eeeeee;
-        }
-*/
-/*
-        .navbar.show
-        {
-        display: block;    
-        }
-*/
-        
-/*
-       header .navbar ul li 
-        {
-            display: block;
-            margin-left: 0;   
-        }
-*/
-/*
-        header .navbar ul li a
-        {
-            line-height: 42px;
-            color: #000000;
-            
 
-        }
-*/
-/*
-        header .navbar ul li a ::before{
-            background-color: #febd01;
-        }
-*/
+
     
 
 @media(max-width: 991px)
     {
-        .home .home-content .block h1
+        .home .home-content .block h2
         {
          font-size: 50px;
         }
