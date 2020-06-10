@@ -107,7 +107,7 @@ header .brand-name a::before
 {
     width: 100%;
     left:0;
-    color: 
+     
 }
 .topnav a.active::before
 {
@@ -294,7 +294,7 @@ button.button{margin-bottom: 20px;}
 
 .containe {
 	display:flex;
-	align-items:right;
+/*	align-items:right;*/
 	justify-content: right;
 	height: 100%;
 	visibility: hidden;
@@ -394,7 +394,7 @@ width: 100%;
             position: fixed;
             background-color: #ffffff;
             border: none;
-            border-bottom:1 px solid #eeeeee;  
+            border-bottom:1px solid #eeeeee;  
         }
         
         .topnav a
@@ -416,7 +416,6 @@ width: 100%;
  
 
 
-    
 
 @media(max-width: 991px)
     {
