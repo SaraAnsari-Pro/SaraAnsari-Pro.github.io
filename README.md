@@ -5,7 +5,9 @@ Assessing Javascript Libraries
 
 I used Swiperjs library that is Most modern device touch slider with hardware accelerated transitions
 https://www.npmjs.com/package/swiper
+
 https://swiperjs.com/
+
 https://swiperjs.com/demos/
 
 https://github.com/SaraAnsari-Pro/SaraAnsari-Pro.github.io/tree/js-library/demo.html
@@ -42,6 +44,7 @@ Published 7 days ago on june 3rd,2020.
 
 License:
 Swiper is free and licensed under GPL & MIT
+
 https://github.com/nolimits4web/swiper/blob/master/LICENSE
 
 Supportive community:
