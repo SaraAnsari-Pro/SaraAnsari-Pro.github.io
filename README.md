@@ -6,8 +6,9 @@ Assessing Javascript Libraries
 I used Swiperjs library that is Most modern device touch slider with hardware accelerated transitions
 https://www.npmjs.com/package/swiper
 https://swiperjs.com/
+https://swiperjs.com/demos/
 
-demo.html
+https://github.com/SaraAnsari-Pro/SaraAnsari-Pro.github.io/tree/js-library/demo.html
 
 Usability:
 Swiper - is the free and most modern mobile touch slider with hardware accelerated transitions and
