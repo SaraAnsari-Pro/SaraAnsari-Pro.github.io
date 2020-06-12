@@ -3,6 +3,14 @@
 
 Assessing Javascript Libraries
 
+Swiper library is the most modern free mobile touch slider with hardware accelerated transitions and amazing native behavior. It is intended to be used in mobile websites, mobile web apps, and mobile native/hybrid apps. It is lightweight JavaScript date library for parsing, validating, manipulating, and formatting dates.
+
+
+They have list of all available parameters on the website and Project maintainers are responsible for tailoring and enforcing the codes of conduct that they adopt. 23.9k stared on github.
+There is many page samples, articles, reviews, and recommendations on Rebbit page there is questions and response. Also average rating is 4 on WordPress site.
+ 
+
+
 I used Swiperjs library that is Most modern device touch slider with hardware accelerated transitions
 https://www.npmjs.com/package/swiper
 
@@ -14,8 +22,7 @@ https://github.com/SaraAnsari-Pro/SaraAnsari-Pro.github.io/tree/js-library/demo.
 
 Usability:
 
-Swiper - is the free and most modern mobile touch slider with hardware accelerated transitions and
-amazing native behavior. It is intended to be used in mobile websites, mobile web apps, and mobile 
+It is intended to be used in mobile websites, mobile web apps, and mobile 
 native/hybrid apps.
 
 File Size (Weight):
