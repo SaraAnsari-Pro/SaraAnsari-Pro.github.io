@@ -10,7 +10,7 @@ They have list of all available parameters on the website and Project maintainer
 There is many page samples, articles, reviews, and recommendations on Rebbit page there is questions and response. Also average rating is 4 on WordPress site.
 
 
-# some limitations:
+# limitations:
 There is some discussions about limitations, issues and solutions under issues in Github page. such as "Thumbnails must use centeredSlides: true and it can't be loop: true", and more.
 
 
