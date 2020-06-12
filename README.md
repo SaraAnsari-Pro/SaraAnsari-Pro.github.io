@@ -8,7 +8,13 @@ Swiper library is the most modern free mobile touch slider with hardware acceler
 # library evaluation:
 They have list of all available parameters on the website and Project maintainers are responsible for tailoring and enforcing the codes of conduct that they adopt. 23.9k stared on github.
 There is many page samples, articles, reviews, and recommendations on Rebbit page there is questions and response. Also average rating is 4 on WordPress site.
- 
+
+# some limitations:
+
+There is some descutions about limitaions, issues and solotions under issues in github page. such as 
+Thumbnails must use centeredSlides: true and it can't be loop: true, and more.
+
+
 
 
 I used Swiperjs library that is Most modern device touch slider with hardware accelerated transitions
