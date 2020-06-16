@@ -5,8 +5,9 @@
 
 body
 {  
-    background-image: url("../img/755726.jpeg");
-    background: rgba(0, 0, 0, );
+    background: #000;
+/*    background-image: url("../img/755726.jpeg");*/
+/*    background: rgba(10, 10, 30,7 );*/
         background-size:cover;
     background-position: center;
     padding: 0px;
@@ -62,6 +63,12 @@ h3
     text-align: center;
     
 }
+h2
+{
+    text-align: center;
+    background: #000;
+    color: #fff;
+}
 p
 {
     font-size: 14px;
@@ -111,6 +118,12 @@ body {
 .contents {
   background-color: white;
   padding: 10px;
+}
+
+
+.footer-copyright.text-center.py-3 {
+    text-align: center;
+    color: #fff;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
