@@ -1,0 +1,14 @@
+{
+  "name": "exp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sara Ansari",
+  "license": "ISC",
+  "dependencies": {
+    "swiper": "^5.4.2"
+  }
+}
