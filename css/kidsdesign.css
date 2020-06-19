@@ -326,7 +326,7 @@ h1 {
 
 
 /*breakpoints*/
-@media screen and(max-width: 375px)
+@media screen and (max-width: 375px)
     {
         
 
@@ -413,8 +413,7 @@ width: 100%;
     display: block;
     text-align: left;
   }
- 
-
+}
 
 
 @media(max-width: 991px)
