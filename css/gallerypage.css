@@ -79,6 +79,7 @@ img {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+    background-color: #000;
 }
 .contents {
   background-color: white;
